@@ -1,4 +1,4 @@
-Projeto em Andamento, carregado a partir do projeto original da plataforma para posteriormente ser dado continuidade ou utilizado como base de inspiração para outros projetos, e como meio para finalizar o curso GFT Quality Assurance #1. Realizadas poucas modificações, pois em função do nível que me encontro foi dado enfoque no entendimento da construção, e pouco atualmente no seu desenvolvimento. Além disso, parte do ensinamento obtido a partir desse projeto foi acerca do uso ainda da IDE Eclipse para construção de projetos em Java. <br>
+Projeto desenvolvido a partir da Dio de um Banco Digital em Java, com o objetivo de aprender sobre a linguagem, suas IDEs e orientação a objetos. O projeto abrange funcionalidades como contas correntes e contas poupança, além dos métodos de saque, depósito e transferência. Durante a sua implementação, foram aplicados conceitos fundamentais, tais como abstração, encapsulamento, herança, polimorfismo e modificadores de acesso
 
 # Criando um Banco Digital com Java e Orientação a Objetos
 
