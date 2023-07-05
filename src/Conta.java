@@ -1,8 +1,8 @@
 
 public abstract class Conta implements IConta {
 	
-	private static final int AGENCIA_PADRAO = 1;
-	private static int SEQUENCIAL = 1;
+	private static final int AGENCIA_PADRAO = 10000;
+	private static int SEQUENCIAL = 100000;
 
 	protected int agencia;
 	protected int numero;
