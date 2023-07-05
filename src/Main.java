@@ -2,15 +2,15 @@
 public class Main {
 
 	public static void main(String[] args) {
-		Cliente venilton = new Cliente();
-		venilton.setNome("Venilton");
+		Cliente Eduardo = new Cliente();
+		Eduardo.setNome("Eduardo");
 		
-		Conta cc = new ContaCorrente(venilton);
-		Conta poupanca = new ContaPoupanca(venilton);
-
-		cc.depositar(100);
-		cc.transferir(100, poupanca);
-		
+		Conta cc = new ContaCorrente(Eduardo);
+		Conta poupanca = new ContaPoupanca(Eduardo);
+		// Valor de um salário mínimo
+		cc.depositar(1320);
+		cc.transferir(132, poupanca);
+		// 10% do salário
 		cc.imprimirExtrato();
 		poupanca.imprimirExtrato();
 	}
