@@ -12,7 +12,7 @@ public class CartaoDebito {
 	}
 
 	public void imprimirExtrato() {
-		System.out.println("=== Extrato do Cartão de Débito ===");
+		System.out.println("=== Extrato do Cartao de Debito ===");
 		System.out.println(String.format("Titular: %s", conta.cliente.getNome()));
 		System.out.println(String.format("Agencia: %d", conta.getAgencia()));
 		System.out.println(String.format("Numero: %d", conta.getNumero()));
