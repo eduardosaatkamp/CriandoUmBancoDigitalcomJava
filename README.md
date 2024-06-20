@@ -1,4 +1,8 @@
-Projeto desenvolvido a partir da Dio de um Banco Digital em Java, com o objetivo de aprender sobre a linguagem, suas IDEs e orientação a objetos. O projeto abrange funcionalidades como contas correntes e contas poupança, além dos métodos de saque, depósito e transferência. Durante a sua implementação, foram aplicados conceitos fundamentais, tais como abstração, encapsulamento, herança, polimorfismo e modificadores de acesso
+Projeto desenvolvido a partir da Dio de um Banco Digital em Java, com o objetivo de aprender sobre a linguagem, suas IDEs e orientação a objetos. O projeto abrange funcionalidades como contas correntes e contas poupança, além dos métodos de saque, depósito e transferência. Durante a sua implementação, foram aplicados conceitos fundamentais, tais como abstração, encapsulamento, herança, polimorfismo e modificadores de acesso.
+
+<a href="https://github.com/eduardosaatkamp/PooNoReinoAnimal" target="_blank" rel="noopener noreferrer">Conheça esse projeto de PooNoReinoAnimal em JAVA também.</a><br>
+<a href="https://github.com/eduardosaatkamp/formulasDeFisica" target="_blank" rel="noopener noreferrer">Conheça esse projeto de fórmulas utilizadas nas ciências exatas em diferentes linguagens.</a><br>
+<a href="https://github.com/eduardosaatkamp/OtakuJUnit" target="_blank" rel="noopener noreferrer">Conheça esse projeto de teste unitários em Junit.</a><br>
 
 # Criando um Banco Digital com Java e Orientação a Objetos
 
@@ -18,13 +22,6 @@ Permite que você defina uma classe filha que reutiliza (herda), estende ou modi
 
 ### Polimorfismo
 Capacidade de um objeto poder ser referenciado de várias formas, ou seja, é capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica. Atenção, polimorfismo em POO não significa  que o objeto fica se transformando, muito pelo contrário, um objeto nasce de um tipo e morre daquele tipo, o que pode variar é a maneira como nos referimos a ele.
-
-<a href="https://github.com/eduardosaatkamp/PooNoReinoAnimal" target="_blank" rel="noopener noreferrer">Conheça esse projeto de PooNoReinoAnimal em JAVA também.</a><br>
-<a href="https://github.com/eduardosaatkamp/formulasDeFisica" target="_blank" rel="noopener noreferrer">Conheça esse projeto de fórmulas de exatas em diferentes linguagens.</a><br>
-<a href="https://github.com/eduardosaatkamp/OtakuJUnit" target="_blank" rel="noopener noreferrer">Conheça esse projeto de teste unitários em Junit.</a><br>
-
-
- 
 
 Sobre a conta original que disponibilizou. 
 Disponibilizado com ♥ por [cami-la](https://www.linkedin.com/in/cami-la/ "cami-la").
