@@ -1,10 +1,10 @@
 public class Main {
 public static void main(String[] args) {
-	Cliente Eduardo = new Cliente();
-	Eduardo.setNome("Eduardo");
-		
-	Conta cc = new ContaCorrente(Eduardo);
-	Conta poupanca = new ContaPoupanca(Eduardo);
+        Cliente clienteEduardo = new Cliente();
+        clienteEduardo.setNome("Eduardo");
+
+        Conta cc = new ContaCorrente(clienteEduardo);
+        Conta poupanca = new ContaPoupanca(clienteEduardo);
 	// Valor de um salário mínimo
 	cc.depositar(1320);
 	cc.transferir(132, poupanca);
@@ -14,6 +14,6 @@ public static void main(String[] args) {
 
 	CartaoDebito cartaoDebito = cc.getCartaoDebito();
 	cartaoDebito.pagar(50);
-	cartaoDebito.imprimirExtrato();
+        cartaoDebito.imprimirExtrato();
 }
 }
