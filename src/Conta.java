@@ -17,21 +17,36 @@ public abstract class Conta implements IConta {
 		this.cartaoDebito = new CartaoDebito(this);
 	}
 
-	@Override
-	public void sacar(double valor) {
-		saldo -= valor;
-	}
+       @Override
+       public void sacar(double valor) {
+               if (valor <= 0) {
+                       throw new IllegalArgumentException("Valor de saque deve ser positivo");
+               }
+               if (saldo < valor) {
+                       throw new IllegalArgumentException("Saldo insuficiente");
+               }
+               saldo -= valor;
+       }
 
-	@Override
-	public void depositar(double valor) {
-		saldo += valor;
-	}
+       @Override
+       public void depositar(double valor) {
+               if (valor <= 0) {
+                       throw new IllegalArgumentException("Valor de deposito deve ser positivo");
+               }
+               saldo += valor;
+       }
 
-	@Override
-	public void transferir(double valor, IConta contaDestino) {
-		this.sacar(valor);
-		contaDestino.depositar(valor);
-	}
+       @Override
+       public void transferir(double valor, IConta contaDestino) {
+               if (valor <= 0) {
+                       throw new IllegalArgumentException("Valor de transferência deve ser positivo");
+               }
+               if (saldo < valor) {
+                       throw new IllegalArgumentException("Saldo insuficiente");
+               }
+               this.sacar(valor);
+               contaDestino.depositar(valor);
+       }
 
 	public int getAgencia() {
 		return agencia;
