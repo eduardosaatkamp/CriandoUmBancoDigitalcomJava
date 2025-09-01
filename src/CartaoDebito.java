@@ -8,7 +8,7 @@ public class CartaoDebito {
 
 	public void pagar(double valor) {
 		conta.sacar(valor);
-		System.out.println(String.format("Pagamento de %.2f realizado com sucesso.", valor));
+		System.out.printf("Pagamento de %.2f realizado com sucesso. Saldo atual: %.2f%n", valor, conta.getSaldo());
 	}
 
 	public void imprimirExtrato() {
