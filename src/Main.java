@@ -5,12 +5,13 @@ public static void main(String[] args) {
 
         Conta cc = new ContaCorrente(clienteEduardo);
         Conta poupanca = new ContaPoupanca(clienteEduardo);
-	// Valor de um salário mínimo
-	cc.depositar(1320);
-	cc.transferir(132, poupanca);
-	// 10% do salário	
-	cc.imprimirExtrato();
-	poupanca.imprimirExtrato();
+        // Valor de um salário mínimo
+        cc.depositar(1320);
+        cc.imprimirExtrato();
+        cc.transferir(132, poupanca);
+        // 10% do salário
+        cc.imprimirExtrato();
+        poupanca.imprimirExtrato();
 
 	CartaoDebito cartaoDebito = cc.getCartaoDebito();
 	cartaoDebito.pagar(50);
